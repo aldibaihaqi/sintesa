@@ -1,6 +1,6 @@
 <?php
 $assets_location = base_url()."assets/bootstrap/";
-
+$file_location = base_url()."assets/file/";
 ?>
 
 <!DOCTYPE html>

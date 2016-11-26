@@ -1,6 +1,6 @@
 <?php
 $assets_location = base_url()."assets/bootstrap/";
-
+$file_location = base_url()."assets/file/";
 ?>
 
 <!-- Header -->
@@ -8,7 +8,7 @@ $assets_location = base_url()."assets/bootstrap/";
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="<?php echo $assets_location;?>img/logo.png" alt="">
+                    <img class="img-responsive" src="<?php echo $file_location;?>image/logo.png" alt="">
                     <div class="intro-text">
                         <span class="name">Sintesa Learning</span>
                         

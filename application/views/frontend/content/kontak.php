@@ -1,4 +1,4 @@
- <?php
+<?php
 $assets_location = base_url()."assets/bootstrap/";
 
 ?>

@@ -112,9 +112,7 @@ $assets_location = base_url()."assets/bootstrap/";
                     <li>
                         <a href="pesan"><i class="fa fa-fw fa-envelope"></i> Pesan</a>
                     </li>
-
-                    
-                   
+    
             </div>
             <!-- /.navbar-collapse -->
         </nav>

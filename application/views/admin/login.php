@@ -1,6 +1,5 @@
 <?php
 $assets_location = base_url()."assets/bootstrap/";
-$controllers_location = base_url()."application/controllers/";
 ?>
 
 <!DOCTYPE html>
