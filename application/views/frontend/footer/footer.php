@@ -31,17 +31,17 @@ $file_location = base_url()."assets/file/";
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li> -->
                             <li>
-                                <a class="btn-social"><img class="img-responsive" src="<?php echo $file_location;?>image/ig.png" alt=""></a>
+                                <a href="https://www.instagram.com/sintesalearningcentre" class="btn-social"><img class="img-responsive" src="<?php echo $file_location;?>image/ig.png" alt=""></a>
                             </li>
                             <li>
-                                <p>@sintesalearningcentre</p>
+                                <p>sintesalearningcentre</p>
                             </li>
                             <br>
                             <li>
                                 <a class="btn-social"><img class="img-responsive" src="<?php echo $file_location;?>image/line.png" alt=""></a>
                             </li>
                             <li>
-                                <p>@sintesalearningcentre</p>
+                                <p>@sxe0776a</p>
                             </li>
                         </ul>
                     </div>
