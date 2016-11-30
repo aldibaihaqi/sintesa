@@ -21,6 +21,7 @@ class Profil extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
+		$this->load->model("model_profil");
 	}
 
 	public function index()
@@ -28,11 +29,19 @@ class Profil extends CI_Controller {
         if($this->session->userdata('akses'))
         {
             $this->load->view('admin/navbar/navbar');
-            $this->load->view('admin/content/profil');
-            $this->load->view('admin/footer/footer');
+            $this->form_validation->set_rules('isi', 'ISI', 'required');
+            if($this->form_validation->run() === FALSE)
+			{
+	            $data['data'] = $this->model_profil->get_data();
+	            $this->load->view('admin/content/profil', $data);  
+	        }else
+	        {
+	        	$this->model_profil->edit_data();
+				redirect('admin/profil');
+	        }
+	        $this->load->view('admin/footer/footer');
         }else
         {
-            
             $this->load->view('admin/login');
         }
 	}

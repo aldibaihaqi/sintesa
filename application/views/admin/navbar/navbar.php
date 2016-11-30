@@ -76,7 +76,7 @@ $assets_location = base_url()."assets/bootstrap/";
                     <li>
                         <a href="profil"><i class="fa fa-fw fa-user"></i> Profil</a>
                     </li>
-                                         <li>
+                    <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo1"><i class="fa fa-fw fa-file"></i> Artikel <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo1" class="collapse">
                             <li>

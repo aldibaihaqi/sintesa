@@ -20,7 +20,7 @@ $assets_location = base_url()."assets/bootstrap/";
                     </span>
                     <h4 class="service-heading">Katalog Buku</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p><br>
-                    <button class = "btn btn-success btn-lg">List Buku</button>
+                    <a href="<?php echo site_url('welcome/listbuku');?>"><button class = "btn btn-success btn-lg">List Buku</button></a>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -29,7 +29,7 @@ $assets_location = base_url()."assets/bootstrap/";
                     </span>
                     <h4 class="service-heading">Pemesanan</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p><br>
-                    <button class = "btn btn-success btn-lg">Form Pemesanan</button>
+                    <a href="<?php echo site_url('welcome/pemesanan');?>"><button class = "btn btn-success btn-lg">Form Pemesanan</button></a>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -38,7 +38,7 @@ $assets_location = base_url()."assets/bootstrap/";
                     </span>
                     <h4 class="service-heading">Konfirmasi Pembayaran</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p><br>
-                    <button class = "btn btn-success btn-lg">Form Pembayaran</button>
+                    <a href="<?php echo site_url('welcome/pembayaran');?>"><button class = "btn btn-success btn-lg">Form Pembayaran</button></a>
                 </div>
             </div>
         </div>

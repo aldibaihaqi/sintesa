@@ -33,7 +33,7 @@ class Beranda extends CI_Controller {
         }else
         {
             
-            $this->load->view('admin/login');
+            $this->load->view('admin/beranda');
         }
 	}
 }
